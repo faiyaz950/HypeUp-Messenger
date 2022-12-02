@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="?attr/selectableItemBackground">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/userImg"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/user"
+        app:shapeAppearanceOverlay="@style/RoundedImageView"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_marginEnd="12dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:id="@+id/titleTv"
+                android:textColor="@color/black"
+                tools:text = "Faiyaz Mujtaba"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:lines="1" />
+
+            <TextView
+
+                android:layout_marginStart="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:id="@+id/timeTv"
+                android:textColor="@color/black"
+                tools:text = "8/7/22"
+                android:textSize="14sp"
+                android:lines="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_marginEnd="12dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:id="@+id/subtitleTv"
+                tools:text = "Hey there!I am using HyepX"
+                android:textSize="14sp"
+                android:lines="1" />
+
+            <TextView
+                android:layout_marginStart="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:id="@+id/countTv"
+                android:textColor="@color/white"
+                tools:text = "8"
+                android:background="@drawable/count_background"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:textSize="14sp"
+                android:lines="1" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

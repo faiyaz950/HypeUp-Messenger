@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "762320260696",
+    "project_id": "hype-up-c4737",
+    "storage_bucket": "hype-up-c4737.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762320260696:android:a55779205347274c7c442d",
+        "android_client_info": {
+          "package_name": "com.example.hype_up"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762320260696-ku05tr3q3a2g8kskcj7kfv5rujtitaq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKZKKI05lzbV8One6qJJYWKUM8TX5DOPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762320260696-ku05tr3q3a2g8kskcj7kfv5rujtitaq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
